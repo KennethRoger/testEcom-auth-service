@@ -1,0 +1,27 @@
+{
+  "name": "auth-service",
+  "version": "1.0.0",
+  "description": "This repository is a user-service of \"Test-Ecom\" which is created for the purpose of learning microservice architecture by following the best practices as much as I can.",
+  "homepage": "https://github.com/KennethRoger/testEcom-auth-service#readme",
+  "bugs": {
+    "url": "https://github.com/KennethRoger/testEcom-auth-service/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KennethRoger/testEcom-auth-service.git"
+  },
+  "license": "ISC",
+  "author": "Kenneth Roger Nelson",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^1.13.4",
+    "@grpc/proto-loader": "^0.8.0",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2"
+  }
+}

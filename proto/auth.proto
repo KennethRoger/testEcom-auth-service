@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package auth;
+
+service AuthService {
+  rpc GenerateToken (UserData) returns (TokenObject) {}
+}
+
+message UserData {
+  string _id = 1;
+  string email = 2;
+}
+
+message TokenObject {
+  boolean success = 1;
+  string token = 2;
+}

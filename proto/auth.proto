@@ -12,6 +12,6 @@ message UserData {
 }
 
 message TokenObject {
-  boolean success = 1;
+  bool success = 1;
   string token = 2;
 }
